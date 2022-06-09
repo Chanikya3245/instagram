@@ -1,0 +1,312 @@
+body {
+    background: #fafafa;
+    height: 520%;
+}
+
+.insta-header {
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+
+.logo {
+    width: 103px;
+    height: 29px;
+}
+
+.logoa {
+    float: right;
+
+}
+
+.searchbar {
+    width: 268px !important;
+    height: 36px;
+    padding: 4px 0px 0px 42px;
+    margin: -29px 0px -7px 190px;
+    float: left;
+    border-radius: 8px;
+    background: rgba(var(--bb2, 239, 239, 239), 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    outline: 0;
+    color: rgba(var(--i1d, 38, 38, 38), 1);
+    border: none;
+    font-family: system-ui;
+    font-weight: 300;
+
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.search-icon {
+    width: 17px;
+    height: 17px !important;
+    margin: 0px 0px 1px 203px;
+
+}
+
+.icons {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin: 15px 0px 0px 0px;
+}
+
+.home-icon {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.messenger-icon {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.add-icon {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.explore-icon {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.heart-icon {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.profile-icon {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+}
+
+.rectangle {
+    width: 500px;
+    height: 120px;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    margin: 16px 0px 0px 256px;
+    border-radius: 8px;
+}
+
+.circle {
+    position: relative;
+    margin: 20px 10px 0px 20px;
+    width: 62px;
+    height: 62px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px rgba(247, 7, 167, 0.65);
+
+}
+
+.userpics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 16px;
+    font-size: 10px;
+    width: 62px !important;
+    height: 62px !important;
+    text-align: center;
+    cursor: pointer;
+}
+
+.userpics div img {
+    width: 62px !important;
+    height: 62px !important;
+}
+
+
+/* .circle:before{
+      position: absolute;
+      content: "";
+      width: 15em;
+      height: 5em;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      z-index: 100;
+  } */
+
+.example-card {
+    width: 500px;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    margin: 16px 0px 0px 256px;
+    border-radius: 8px;
+}
+
+.idname {
+    height: 60px;
+}
+
+.example-header-image1 {
+    background-image: url('../assets/images/Megha-Akash.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.mat-card-avatar {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin: -8px -5px 0px -7px;
+}
+
+.image1 {
+    font-size: 15px;
+    font-weight: 590;
+    margin: 0px 0px 30px 0px;
+
+}
+
+.doticon {
+    margin: 0px 0px 0px 285px;
+    cursor: pointer;
+}
+
+.mat-card-image {
+    width: calc(100% + 32px);
+    margin: -18px -16px 16px -16px;
+    display: block;
+    overflow: hidden;
+}
+
+.mat-card-content>:first-child {
+    margin: 1px 0px -2px 0px;
+}
+
+.baseicons {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 17px;
+    cursor: pointer;
+}
+
+.save-icon {
+    height: 24px;
+    width: 24px;
+    margin: 0px -344px 0px 317px;
+    cursor: pointer;
+}
+
+/* mat-card-content */
+.likes {
+    font-size: 14px;
+    font-weight: 560;
+    padding: 8px 0px 3px 0px;
+}
+
+p {
+    font-size: 13px;
+    /* font-weight: 350; */
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+h4 {
+    font-size: 13px;
+    opacity: 0.8;
+    margin: 2px 0px 0px 0px;
+}
+
+h5 {
+    font-size: 10px;
+    opacity: 0.6;
+    margin: 3px 0px 0px 0px;
+}
+
+mat-divider {
+    width: 498px;
+    margin: -8px 0px 0px -16px;
+    opacity: 0.8;
+}
+
+.comment-section {
+    margin: 10px 0px 0px 0px;
+
+    /* padding: 0px 10px 0px 0px; */
+}
+
+input {
+    padding: 0px 0px 0px 12px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    opacity: 0.8;
+    margin: 2px 0px 0px 0px;
+}
+
+.example-header-image4 {
+    background-image: url('../assets/images/darling-prabhas.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image4 {
+    font-size: 15px;
+    font-weight: 590;
+    margin: 0px 0px 30px 0px;
+
+}
+
+.example-header-image3 {
+    background-image: url('../assets/images/nivetha-thomas.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image3 {
+    font-size: 15px;
+    font-weight: 590;
+    margin: 0px 0px 30px 0px;
+
+}
+
+.doticon-img3 {
+    margin: 0px 0px 0px 270px;
+    cursor: pointer;
+}
+
+.example-header-image2 {
+    background-image: url('../assets/images/ar-rahman.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image2 {
+    font-size: 15px;
+    font-weight: 590;
+    margin: 0px 0px 30px 0px;
+
+}
+
+.doticon-img2 {
+    margin: 0px 0px 0px 310px;
+    cursor: pointer;
+}
