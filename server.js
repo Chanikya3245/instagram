@@ -4,7 +4,7 @@ const express = require('express');
 		app.use(express.static(__dirname + '/dist/instagram'));
 		app.get('/*', function(req,res) {
 		res.sendFile(path.join(__dirname+
-		'/dist/<app-name>/index.html'));});
+		'/dist/instagram/index.html'));});
 		const server = app.listen(process.env.PORT || 5000, () => {
 			const port = server.address().port;
 			console.log(`Express is working on port ${port}`);
