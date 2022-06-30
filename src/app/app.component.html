@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   <title>Instagram</title>
 </head>
 
@@ -14,28 +17,30 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-3">
-          <a href=" " class="logoa mt-3 me-3">
-            <img src="../assets/images/instagram-text.svg" alt="logo" class="logo">
+          <a href=" " class="logoa mt-2 me-2">
+            <p class="logo">Instagram</p>
           </a>
         </div>
 
         <div class="col-lg-5 float-right">
           <mat-form-field class="search">
-            <a href="#">
-              <img src="../assets/images/search-svgrepo-com.svg" alt="search" class="search-icon">
-            </a>
+            <mat-icon aria-hidden="false" aria-label="Example search icon" class="search-icon">search</mat-icon>
             <input matInput placeholder="Search" class="searchbar">
           </mat-form-field>
         </div>
 
         <div class="col-lg-4 icons">
-          <img src="../assets/images/home-svgrepo-com.svg" alt="home" class="home-icon">
-          <img src="../assets/images/facebook-messenger-svgrepo-com.svg" alt="messages" class="messenger-icon">
-          <img src="../assets/images/add-r-svgrepo-com.svg" alt="add" class="add-icon">
-          <img src="../assets/images/explore-svgrepo-com.svg" alt="explore" class="explore-icon">
-          <!-- <mat-icon aria-hidden="false" aria-label="Example home icon" class="icon">favorite_border</mat-icon> -->
-          <img src="../assets/images/heart-svgrepo-com.svg" alt="like" class="heart-icon">
-          <img src="../assets/images/account-avatar-profile-user-8-svgrepo-com.svg" alt="profile" class="profile-icon">
+          <mat-icon aria-hidden="false" aria-label="Example home icon" class="home-icon">home</mat-icon>
+          
+          <mat-icon aria-hidden="false" aria-label="Example messenger icon" class="messenger-icon">chat_bubble_outline</mat-icon>
+
+          <mat-icon aria-hidden="false" aria-label="Example add icon" class="add-icon">add_circle_outline</mat-icon>
+
+          <mat-icon aria-hidden="false" aria-label="Example add icon" class="explore-icon">explore</mat-icon>
+
+          <mat-icon aria-hidden="false" aria-label="Example heart icon" class="heart-icon">favorite_border</mat-icon>
+
+          <mat-icon aria-hidden="false" aria-label="Example profile icon" class="profile-icon">account_circle</mat-icon>
         </div>
       </div>
 
@@ -44,7 +49,8 @@
           <div class="rectangle">
             <div class="circle">
               <li class="userpics">
-                <div><img src="../assets/images/account-avatar-profile-user-14-svgrepo-com.svg"alt="pic1">the_glory_bite
+                <div><img src="../assets/images/account-avatar-profile-user-14-svgrepo-com.svg"
+                    alt="pic1">the_glory_bite
                 </div>
                 <div><img src="../assets/images/account-avatar-profile-user-12-svgrepo-com.svg" alt="pic2">chaanus_love
                 </div>
@@ -76,10 +82,12 @@
             <img mat-card-image src="../assets/images/Megha-Akash.jpg" alt="megha">
 
             <div class="baseicons">
-              <span><img src="../assets/images/heart-svgrepo-com.svg" alt="like"></span>
-              <span><img src="../assets/images/chat-bubble-empty-svgrepo-com.svg" alt="comment"></span>
-              <span><img src="../assets/images/telegram-svgrepo-com.svg" alt="share"></span>
-              <span><img src="../assets/images/bookmark-favorite-favourite-svgrepo-com.svg" alt="save" class="save-icon"></span>
+
+              <span><mat-icon aria-hidden="false" aria-label="Example heart icon" class="heart-icon">favorite_border</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example comment icon" class="comment">comment</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example send icon" class="send">send</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example bookmark-border icon" class="save-icon">bookmark_border</mat-icon></span>
+                  
             </div>
             <mat-card-content>
               <h3 class="likes">323,323 likes</h3>
@@ -96,7 +104,7 @@
         </div>
       </div>
 
-      <div class="row"> 
+      <div class="row">
         <div class="col-lg-6">
           <mat-card class="example-card">
             <mat-card-header class="idname">
@@ -104,16 +112,18 @@
               <mat-card-title>
                 <h3 class="image2">arrahman</h3>
               </mat-card-title>
-              <mat-icon aria-hidden="false" aria-label="Example more_horiz icon" class="doticon-img2">more_horiz</mat-icon>
+              <mat-icon aria-hidden="false" aria-label="Example more_horiz icon" class="doticon-img2">more_horiz
+              </mat-icon>
             </mat-card-header>
 
             <img mat-card-image src="../assets/images/ar-rahman.jpg" alt="ar-rahman">
 
             <div class="baseicons">
-              <span><img src="../assets/images/heart-svgrepo-com.svg" alt="like"></span>
-              <span><img src="../assets/images/chat-bubble-empty-svgrepo-com.svg" alt="comment"></span>
-              <span><img src="../assets/images/telegram-svgrepo-com.svg" alt="share"></span>
-              <span><img src="../assets/images/bookmark-favorite-favourite-svgrepo-com.svg" alt="save" class="save-icon"></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example heart icon" class="heart-icon">favorite_border</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example comment icon" class="comment">comment</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example send icon" class="send">send</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example bookmark-border icon" class="save-icon">bookmark_border</mat-icon></span>
+                  
             </div>
             <mat-card-content>
               <h3 class="likes">456,345 likes</h3>
@@ -138,16 +148,17 @@
               <mat-card-title>
                 <h3 class="image3">i_nivethathomas</h3>
               </mat-card-title>
-              <mat-icon aria-hidden="false" aria-label="Example more_horiz icon" class="doticon-img3">more_horiz</mat-icon>
+              <mat-icon aria-hidden="false" aria-label="Example more_horiz icon" class="doticon-img3">more_horiz
+              </mat-icon>
             </mat-card-header>
 
             <img mat-card-image src="../assets/images/nivetha-thomas.jpg" alt="i_nivethathomas">
 
             <div class="baseicons">
-              <span><img src="../assets/images/heart-svgrepo-com.svg" alt="like"></span>
-              <span><img src="../assets/images/chat-bubble-empty-svgrepo-com.svg" alt="comment"></span>
-              <span><img src="../assets/images/telegram-svgrepo-com.svg" alt="share"></span>
-              <span><img src="../assets/images/bookmark-favorite-favourite-svgrepo-com.svg" alt="save" class="save-icon"></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example heart icon" class="heart-icon">favorite_border</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example comment icon" class="comment">comment</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example send icon" class="send">send</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example bookmark-border icon" class="save-icon">bookmark_border</mat-icon></span>
             </div>
             <mat-card-content>
               <h3 class="likes">456,143 likes</h3>
@@ -178,10 +189,10 @@
             <img mat-card-image src="../assets/images/darling-prabhas.jpg" alt="actorprabhas">
 
             <div class="baseicons">
-              <span><img src="../assets/images/heart-svgrepo-com.svg" alt="like"></span>
-              <span><img src="../assets/images/chat-bubble-empty-svgrepo-com.svg" alt="comment"></span>
-              <span><img src="../assets/images/telegram-svgrepo-com.svg" alt="share"></span>
-              <span><img src="../assets/images/bookmark-favorite-favourite-svgrepo-com.svg" alt="save" class="save-icon"></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example heart icon" class="heart-icon">favorite_border</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example comment icon" class="comment">comment</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example send icon" class="send">send</mat-icon></span>
+              <span><mat-icon aria-hidden="false" aria-label="Example bookmark-border icon" class="save-icon">bookmark_border</mat-icon></span>
             </div>
             <mat-card-content>
               <h3 class="likes">4,500,345 likes</h3>

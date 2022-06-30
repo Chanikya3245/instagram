@@ -9,21 +9,25 @@ body {
     border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
 }
 
-.logo {
-    width: 103px;
-    height: 29px;
-}
-
 .logoa {
     float: right;
-
+    text-decoration: none;
+    color: black;
+   
+}
+.logo {
+    width: 105px;
+    height: 29px;
+    font-family: 'Cookie';
+    font-size: 35px;
+    margin: 0px 0px 0px 0px;
 }
 
 .searchbar {
     width: 268px !important;
     height: 36px;
-    padding: 4px 0px 0px 42px;
-    margin: -29px 0px -7px 190px;
+    padding: 0px 0px 0px 44px;
+    margin: -33px 0px 0px 190px;
     float: left;
     border-radius: 8px;
     background: rgba(var(--bb2, 239, 239, 239), 1);
@@ -47,7 +51,8 @@ body {
 .search-icon {  
     width: 17px;
     height: 17px !important;
-    margin: 0px -220px 1px 203px;
+    margin: -6px 0px 0px 203px;
+    color: black;
 
 }
 
@@ -60,8 +65,8 @@ body {
 }
 
 .home-icon {
-    width: 26px;
-    height: 26px;
+    width: 26px !important;
+    height: 26px !important;
     cursor: pointer;
 }
 
@@ -104,7 +109,7 @@ body {
     width: 500px;
     height: 120px;
     border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
-    margin: 16px 0px 0px 256px;
+    margin: 0px 0px 0px 256px;
     border-radius: 8px;
 }
 
@@ -172,7 +177,7 @@ body {
     border-radius: 50%;
     flex-shrink: 0;
     object-fit: cover;
-    margin: -8px -5px 0px -7px;
+    margin: 0px 0px 0px 0px;
 }
 
 .image1 {
@@ -183,20 +188,20 @@ body {
 }
 
 .doticon {
-    margin: 0px 0px 0px 285px;
+    margin: 0px 0px 0px 275px;
     cursor: pointer;
 }
 
 .mat-card-image {
-    width: calc(100% + 32px);
-    margin: -18px -16px 16px -16px;
+    width: calc(100%);
+    margin: 0px 0px 15px 0px;
     display: block;
     overflow: hidden;
 }
 
-.mat-card-content>:first-child {
+/* .mat-card-content>:first-child {
     margin: 1px 0px -2px 0px;
-}
+} */
 
 .baseicons {
     width: 24px;
@@ -211,7 +216,7 @@ body {
 .save-icon {
     height: 24px;
     width: 24px;
-    margin: 0px -344px 0px 317px;
+    margin: 0px 0px 0px 317px;
     cursor: pointer;
 }
 
@@ -219,14 +224,14 @@ body {
 .likes {
     font-size: 14px;
     font-weight: 560;
-    padding: 8px 0px 3px 0px;
+    padding: 4px 0px 3px 0px;
 }
 
 p {
     font-size: 13px;
     /* font-weight: 350; */
     padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    margin: -18px 0px 0px 0px;  
 }
 
 h4 {
@@ -243,12 +248,14 @@ h5 {
 
 mat-divider {
     width: 498px;
-    margin: -8px 0px 0px -16px;
+    margin: 0px 0px 0px -16px;
     opacity: 0.8;
 }
-
+/* .mood{
+    margin: 4px 0px 0px 0px;
+} */
 .comment-section {
-    margin: 10px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
 
     /* padding: 0px 10px 0px 0px; */
 }
@@ -289,7 +296,7 @@ input {
 }
 
 .doticon-img3 {
-    margin: 0px 0px 0px 270px;
+    margin: 0px 0px 0px 258px;
     cursor: pointer;
 }
 
@@ -307,6 +314,6 @@ input {
 }
 
 .doticon-img2 {
-    margin: 0px 0px 0px 310px;
+    margin: 0px 0px 0px 300px;
     cursor: pointer;
 }
